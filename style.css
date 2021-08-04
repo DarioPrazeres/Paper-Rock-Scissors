@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(36, 36, 185, 0.829);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    background-image: url(../Paper-Rock-Scissors/img/wallpaper.png);
+    background-size: contain;
+}
+.result{
+    background-color: silver;
+    display: flex;
+
+    width: 100%;
+    height: 180px;
+}
+.player{
+    background-color: burlywood;
+    width: 120px;
+    height: 180px;
+    
+}
+.yourplay{
+    background-color: brown;
+    width: 120px;
+    height: 120px;
+    
+    background-image: url(../Paper-Rock-Scissors/img/rock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.vs{
+    position: relative;
+    left: 13px;
+    top: 30px;
+    text-align: justify;
+}
+.computer{
+    position: absolute;
+    right: 7px;
+    background-color: burlywood;
+    width: 120px;
+    height: 180px;
+}
+.computerplay{
+    background-color: brown;
+    width: 120px;
+    height: 120px;
+
+    background-image: url(../Paper-Rock-Scissors/img/rock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.yourchoice{
+    margin-top: 5px;
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: solid black 1px;
+
+    background-image: url(../Paper-Rock-Scissors/img/wallpaper.png);
+    background-size: contain;    
+}
+.rock{
+    background-image: url(../Paper-Rock-Scissors/img/rock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-right: solid black 1px;
+    width: 120px;
+    height: 120px;    
+}
+.paper{
+    background-image: url(../Paper-Rock-Scissors/img/paper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-right: solid black 1px;
+    width: 120px;
+    height: 120px;
+}
+.scissors{
+    background-image: url(../Paper-Rock-Scissors/img/scissors.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+    width: 120px;
+    height: 120px;
+}
