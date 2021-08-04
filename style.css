@@ -18,7 +18,7 @@ body{
 }
 .player{
 
-    border: solid black 1px;
+    border: solid white 1px;
     width: auto;
     height: auto;
     
@@ -47,7 +47,7 @@ body{
     
     width: auto;
     height: auto;
-    border: solid black 1px;
+    border: solid white 1px;
 }
 .computerplay{
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
@@ -60,7 +60,7 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    border: solid black 1px;
+    border: solid white 1px;
 
    
 }
@@ -80,7 +80,7 @@ body{
     background-repeat: no-repeat;
 }
 #divP{
-    border-right: solid black 1px;
+    border-right: solid white 1px;
     width: 120px;
     height: 120px;
 }
@@ -106,7 +106,7 @@ footer {
         height: auto;
         margin: auto;
         box-shadow: 5px 5px 10p rgba(0, 0, 0, 0.322);
-        border: solid black 1px;
+        border: solid white 1px;
     }
     .result{
         height: auto;
@@ -116,7 +116,7 @@ footer {
         right: 400px;
     }
     #divP{
-        border-right: solid black 1px;
+        border-right: solid white 1px;
         width: 150px;
         height: 150px;
     }
