@@ -16,8 +16,12 @@ function playerSelected(selection){
   if(numberplay === 5){
       if(victory < loss){
             round.innerHTML = `Lost the Round`;
+            victory = 0;
+            loss = 0;
         }else if(victory > loss){
             round.innerHTML = `you Win the Round`;
+            victory = 0;
+            loss = 0;
         }else{
             round.innerHTML = `Tie Round! Try again`;
         }    
