@@ -1,29 +1,34 @@
 body{
-    background-color: rgba(36, 36, 185, 0.829);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-family: sans-serif;
     text-align: center;
+    text-decoration: brown;
+    text-transform: capitalize;
 
     background-image: url(../Paper-Rock-Scissors/img/wallpaper.png);
     background-size: contain;
 }
 .result{
-    background-color: silver;
+    
     display: flex;
-
     width: 100%;
     height: 180px;
+    border: solid black 1px;
+    border-radius: 5px;
 }
 .player{
-    background-color: burlywood;
+
+    border: solid black 1px;
     width: 120px;
-    height: 180px;
+    height: auto;
     
 }
 .yourplay{
-    background-color: brown;
+    
     width: 120px;
     height: 120px;
-    
+    border: solid black 1px;
+
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,20 +36,27 @@ body{
 .vs{
     position: relative;
     left: 13px;
-    top: 30px;
+    top: 50px;
+    width: auto;
+    height: 25px;
+
     text-align: justify;
+    border: solid black 1px;
 }
 .computer{
     position: absolute;
     right: 7px;
-    background-color: burlywood;
+   
+    
     width: 120px;
     height: 180px;
+    border: solid black 1px;
 }
 .computerplay{
-    background-color: brown;
+    
     width: 120px;
     height: 120px;
+    border: solid black 1px;
 
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
     background-size: contain;
@@ -58,8 +70,7 @@ body{
     justify-content: space-around;
     border: solid black 1px;
 
-    background-image: url(../Paper-Rock-Scissors/img/wallpaper.png);
-    background-size: contain;    
+   
 }
 .rock{
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
