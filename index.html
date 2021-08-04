@@ -12,25 +12,31 @@
         <h1 id="t">Let'us PLay</h1>  
         <h2 >Score</h2>  
     </header>
+    <section>
+
     <div class="result">
         <div class="player">
-            <p>You</p>
-            <div class="yourplay"></div>
+            <p id="you">You</p>
+            <div class="yourplay" id="divP" ></div>
         </div>
         <h2 class="vs">Versus</h2>
         <div class="computer">
-            <p>Computer</p>
-            <div class="computerplay"></div>
+            <p id="pc">Computer</p>
+            <div class="computerplay" id="divP"></div>
         </div>
     </div>
     <div class="yourchoice">
-        <div class="rock"></div>
-        <div class="paper"></div>
-        <div class="scissors"></div>
+        <div class="rock" id="divP" onclick="playerSelected('ROCK')"></div>
+        <div class="paper" id="divP" onclick="playerSelected('PAPER')"></div>
+        <div class="scissors" id="divP" onclick="playerSelected('SCISSORS')"></div>
     </div>
     <div class="round">
-        <p>Victory, lose and tie </p>
+        <p id="score">Result</p>
+        <p id="round"></p>
     </div>
+
+    </section>
     <footer><p>&copy;DPproject</p></footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ body{
     
     font-family: sans-serif;
     text-align: center;
-    text-decoration: brown;
+    color: white;
     text-transform: capitalize;
 
     background-image: url(../Paper-Rock-Scissors/img/wallpaper.png);
@@ -13,21 +13,18 @@ body{
     display: flex;
     width: 100%;
     height: 180px;
-    border: solid black 1px;
+    
     border-radius: 5px;
 }
 .player{
 
     border: solid black 1px;
-    width: 120px;
+    width: auto;
     height: auto;
     
 }
+
 .yourplay{
-    
-    width: 120px;
-    height: 120px;
-    border: solid black 1px;
 
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
     background-size: contain;
@@ -41,29 +38,24 @@ body{
     height: 25px;
 
     text-align: justify;
-    border: solid black 1px;
+    
 }
 .computer{
     position: absolute;
     right: 7px;
    
     
-    width: 120px;
-    height: 180px;
+    width: auto;
+    height: auto;
     border: solid black 1px;
 }
 .computerplay{
-    
-    width: 120px;
-    height: 120px;
-    border: solid black 1px;
-
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .yourchoice{
-    margin-top: 5px;
+    margin-top: 8%;
    
     display: flex;
     width: 100%;
@@ -75,27 +67,60 @@ body{
 .rock{
     background-image: url(../Paper-Rock-Scissors/img/rock.png);
     background-size: contain;
-    background-repeat: no-repeat;
-
-    border-right: solid black 1px;
-    width: 120px;
-    height: 120px;    
+    background-repeat: no-repeat;   
 }
 .paper{
     background-image: url(../Paper-Rock-Scissors/img/paper.png);
     background-size: contain;
     background-repeat: no-repeat;
-
-    border-right: solid black 1px;
-    width: 120px;
-    height: 120px;
 }
 .scissors{
     background-image: url(../Paper-Rock-Scissors/img/scissors.png);
     background-size: contain;
     background-repeat: no-repeat;
-
-    
+}
+#divP{
+    border-right: solid black 1px;
     width: 120px;
     height: 120px;
+}
+footer {
+        
+    text-align: center;
+    font-style: italic;
+}  
+@media only screen and (min-width: 600px){
+    body {
+        font: normal 15pt Arial;
+    }
+    
+    header {
+        text-align: center;
+    }
+    
+    section {
+        
+        border-radius: 10px;
+        padding: 15px;
+        width: 700px;
+        height: auto;
+        margin: auto;
+        box-shadow: 5px 5px 10p rgba(0, 0, 0, 0.322);
+        border: solid black 1px;
+    }
+    .result{
+        height: auto;
+    }
+    .computer{
+        position: absolute;
+        right: 400px;
+    }
+    #divP{
+        border-right: solid black 1px;
+        width: 150px;
+        height: 150px;
+    }
+    .vs{        
+        left: 25%;
+    }
 }
