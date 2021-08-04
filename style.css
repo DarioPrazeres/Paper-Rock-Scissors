@@ -78,6 +78,7 @@ body{
     background-image: url(../Paper-Rock-Scissors/img/scissors.png);
     background-size: contain;
     background-repeat: no-repeat;
+    border-right: none;
 }
 #divP{
     border-right: solid white 1px;

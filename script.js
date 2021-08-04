@@ -9,26 +9,30 @@ var victory=0;
 var loss=0;
 var numberplay=0;
 function playerSelected(selection){
-    
+    numberplay++; 
   var computer = computerSelected();  
   changeBack(selection);
   scoreGame(computer, selection);
   if(numberplay === 5){
+
       if(victory < loss){
             round.innerHTML = `Lost the Round`;
             victory = 0;
             loss = 0;
+            
         }else if(victory > loss){
             round.innerHTML = `you Win the Round`;
             victory = 0;
             loss = 0;
-        }else{
+        }else if(victory === loss){
             round.innerHTML = `Tie Round! Try again`;
+            victory = 0;
+            loss = 0;
         }    
   }
 }
 function scoreGame(computer,selection){
-    numberplay++;
+    
     if(computer === selection){
         score.innerHTML = `Tie`;
     }else if(selection === 'SCISSORS' && computer === 'PAPER'){
